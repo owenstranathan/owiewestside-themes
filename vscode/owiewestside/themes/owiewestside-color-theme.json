@@ -20,7 +20,7 @@
 		"editor.lineHighlightBorder": "#ff000000",
 		"editor.selectionBackground": "#585858",
 		// "editorCursor.foreground": "#",
-		// "editorError.foreground": "#",
+		"editorError.foreground": "#ff0000",
 		// "editorGroup.emptyBackground": "#",
 		// "editorGroup.border": "#",
 		// "editorGroupHeader.tabsBackground": "#",
@@ -65,7 +65,7 @@
 		"statusBar.debuggingBackground": "#00ffff",
 		"tab.activeBackground": "#262626",
 		"tab.activeForeground": "#cccccc",
-		"tab.activeBorderTop": "#cccccc",
+		"tab.activeBorderTop": "#ff000000",
 		"tab.border": "#ff000000",
 		"tab.inactiveBackground": "#585858",
 		// "terminal.foreground": "#",
@@ -98,7 +98,8 @@
 				"entity",
 				"keyword.operator",
 				"storage.modifier.pointer",
-				"storage.modifier.reference"
+				"storage.modifier.reference",
+				// "storage.type.cs",
 			],
 			"settings": {
 				"foreground": "#cccccc",
@@ -108,6 +109,8 @@
 			"name": "Statement",
 			"scope": [
 				"keyword.control",
+				"keyword.other.typeof.cs",
+				"storage.modifier.cs",
 			],
 			"settings": {
 				"foreground": "#f9f1a5",
@@ -151,6 +154,7 @@
 				"keyword.control.directive",
 				"entity.other.attribute-name.pragma",
 				"entity.name.other.preprocessor",
+				"keyword.other.using.cs",
 			],
 			"settings": {
 				"foreground": "#3b78ff"
