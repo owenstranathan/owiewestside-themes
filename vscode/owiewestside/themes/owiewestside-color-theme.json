@@ -58,11 +58,11 @@
 		"sideBar.background": "#0c0c0c",
 		"sideBarSectionHeader.background": "#585858",
 		"sideBarSectionHeader.foreground": "#00ffff",
-		"statusBar.background": "#0c0c0c",
+		"statusBar.background": "#585858",
 		"statusBar.foreground": "#cccccc",
 		"statusBarItem.hoverBackground": "#585858",
-		"statusBar.noFolderBackground": "#ff0000",
-		"statusBar.debuggingBackground": "#00ffff",
+		"statusBar.noFolderBackground": "#585858",
+		"statusBar.debuggingBackground": "#f9f1a5",
 		"tab.activeBackground": "#262626",
 		"tab.activeForeground": "#cccccc",
 		"tab.activeBorderTop": "#ff000000",
@@ -99,6 +99,7 @@
 				"keyword.operator",
 				"storage.modifier.pointer",
 				"storage.modifier.reference",
+				"punctuation.accessor",
 				// "storage.type.cs",
 			],
 			"settings": {
@@ -155,6 +156,7 @@
 				"entity.other.attribute-name.pragma",
 				"entity.name.other.preprocessor",
 				"keyword.other.using.cs",
+				"keyword.control.import.python"
 			],
 			"settings": {
 				"foreground": "#3b78ff"
@@ -168,6 +170,17 @@
 			],
 			"settings": {
 				"foreground": "#b4009e"
+			}
+		},
+		{
+			"name": "Escape and Format characters",
+			"scope": [
+				"constant.character.escape",
+				"constant.character.format",
+				"punctuation.definition.interpolation"
+			],
+			"settings": {
+				"foreground": "#ffa336",
 			}
 		}
 	]
