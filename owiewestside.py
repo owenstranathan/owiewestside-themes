@@ -22,4 +22,5 @@ class OwiewestsideStyle(Style):
         Generic.Output:     'noinherit #3b78ff',
         Comment.Preproc:    'noinherit #3b78ff',
         Name.Builtin:       'noinherit #b4009e',
+        Name.Class:         'noinherit #15c60d',
     }
