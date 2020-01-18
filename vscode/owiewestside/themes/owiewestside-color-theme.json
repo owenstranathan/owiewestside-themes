@@ -112,6 +112,7 @@
 				"keyword.control",
 				"keyword.other.typeof.cs",
 				"storage.modifier.cs",
+				"entity.name.tag.html"
 			],
 			"settings": {
 				"foreground": "#f9f1a5",
@@ -121,7 +122,8 @@
 			"name": "Comment",
 			"scope": [
 				"comment",
-				"punctuation.definition.comment"
+				"punctuation.definition.comment",
+				"punctuation.definition.tag"
 			],
 			"settings": {
 				"foreground": "#61d6d6"
@@ -142,6 +144,7 @@
 				"keyword",
 				"storage.type",
 				"storage.modifier",
+				"entity.other.attribute-name.html"
 			],
 			"settings": {
 				"foreground": "#15c60d"
